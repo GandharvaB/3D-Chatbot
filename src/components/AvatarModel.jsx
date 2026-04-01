@@ -24,12 +24,12 @@ function findBone(scene, namePatterns) {
 // Declarative Dictionary of Base Poses (Offsets from Rest Pose)
 const POSES = {
   IDLE: {
-    RightArm: { z: 1.45, x: 0.1, y: 0 },
-    LeftArm: { z: -1.45, x: 0.1, y: 0 },
-    RightForeArm: { x: 0.05 },
-    LeftForeArm: { x: 0.05 },
-    RightHand: { z: 0.1 },
-    LeftHand: { z: -0.1 },
+    RightArm: { z: 5.23, x: 0.65, y: -1 },
+    LeftArm: { z: -5.23, x: 0.65, y: 1 },
+    RightForeArm: { x: 0, z: 0 },
+    LeftForeArm: { x: 0, z: 0 },
+    RightHand: { x: 0, y: 0, z: 0 },
+    LeftHand: { x: 0, y: 0, z: 0 },
     Head: { x: 0, z: 0 },
     Neck: { x: 0 },
   },
