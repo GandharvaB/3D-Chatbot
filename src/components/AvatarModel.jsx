@@ -34,8 +34,8 @@ const POSES = {
     Neck: { x: 0 },
   },
   FRONT_REST: {
-    RightArm: { z: 1.25, x: 0.5, y: -0.2 },
-    LeftArm: { z: -1.25, x: 0.5, y: 0.2 },
+    RightArm: { z: 5.23, x: 0.65, y: -1 },
+    LeftArm: { z: -5.23, x: 0.65, y: 1 },
     RightForeArm: { x: 0.6 },
     LeftForeArm: { x: 0.6 },
     RightHand: { z: 0.1 },
@@ -44,10 +44,10 @@ const POSES = {
     Neck: { x: 0 },
   },
   THINKING: {
-    RightArm: { z: 0.7, x: 1.0, y: -0.5 },
+    RightArm: { z: 5.23, x: 0.65, y: -1 },
     RightForeArm: { x: 1.5 },
     RightHand: { z: 0.1 },
-    LeftArm: { z: -1.25, x: 0.5, y: 0.2 },
+    LeftArm: { z: -5.23, x: 0.65, y: 1 },
     LeftForeArm: { x: 0.6 },
     LeftHand: { z: -0.1 },
     Head: { x: 0.08, z: -0.08 },
@@ -58,24 +58,24 @@ const POSES = {
 // Declarative Gestures Overlay Dictionary
 const GESTURES = {
   cross_arms: {
-    LeftArm: { x: 0.65, z: -0.5, y: 0.8 }, LeftForeArm: { x: 1.6 },
-    RightArm: { x: 0.65, z: 0.5, y: -0.8 }, RightForeArm: { x: 1.6 }
+    LeftArm: { z: -5.23, x: 0.65, y: 1 }, LeftForeArm: { x: 1.6 },
+    RightArm: { z: 5.23, x: 0.65, y: -1 }, RightForeArm: { x: 1.6 }
   },
   explain_hands: {
-    LeftArm: { z: -0.5, x: 0.4, y: -0.3 }, LeftForeArm: { x: 0.8 },
-    RightArm: { z: 0.5, x: 0.4, y: 0.3 }, RightForeArm: { x: 0.8 },
+    LeftArm: { z: -5.23, x: 0.65, y: 1 }, LeftForeArm: { x: 0.8 },
+    RightArm: { z: 5.23, x: 0.65, y: -1 }, RightForeArm: { x: 0.8 },
     Head: { x: -0.1 }
   },
   open_hand_gesture: {
-    LeftArm: { z: -0.5, x: 0.4, y: -0.3 }, LeftForeArm: { x: 0.8 },
-    RightArm: { z: 0.5, x: 0.4, y: 0.3 }, RightForeArm: { x: 0.8 },
+    LeftArm: { z: -5.23, x: 0.65, y: 1 }, LeftForeArm: { x: 0.8 },
+    RightArm: { z: 5.23, x: 0.65, y: -1 }, RightForeArm: { x: 0.8 },
   },
   both_hands_open: {
-    LeftArm: { z: -0.5, x: 0.4, y: -0.3 }, LeftForeArm: { x: 0.8 },
-    RightArm: { z: 0.5, x: 0.4, y: 0.3 }, RightForeArm: { x: 0.8 },
+    LeftArm: { z: -5.23, x: 0.65, y: 1 }, LeftForeArm: { x: 0.8 },
+    RightArm: { z: 5.23, x: 0.65, y: -1 }, RightForeArm: { x: 0.8 },
   },
   point_forward: {
-    RightArm: { x: 1.2, z: 0.2, y: -0.2 }, RightForeArm: { x: 0.1 }
+    RightArm: { z: 5.23, x: 0.65, y: -1 }, RightForeArm: { x: 0.1 }
   },
   counting_fingers: {
     LeftArm: { x: 0.6, z: -0.3 }, LeftForeArm: { x: 1.5 },
